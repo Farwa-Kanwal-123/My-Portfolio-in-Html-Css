@@ -286,6 +286,9 @@ span{
     margin-bottom: 3rem;
     color: var(--main-color);
 }
+.contact{
+    margin:10rem auto;
+}
 
 .contact form{
     max-width:80rem;
@@ -386,12 +389,18 @@ span{
     .services{
         padding: 7rem ;
     }
+    .contact{
+        padding: 3rem 3%;
+    }
     .contact form .input-box input{
         width:100%
     }
     .footer{
-        padding:2rem 3% ;
+        padding:60px 3%;
     }
+    .footer .social{
+        padding-bottom: 10px;
+        margin-top: 2px;
 }
 
 @media (max-width:991px) {
@@ -443,7 +452,7 @@ span{
         margin-top: 4rem;
     }
     .services h2{
-        margin-bottom: 3rem;
+        margin: 4rem 0;
     }
 
 }
